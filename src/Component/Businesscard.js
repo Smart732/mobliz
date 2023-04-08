@@ -8,7 +8,7 @@ function Businesscard() {
   <div class="card-body">
     <h5 class="card-title text-center">Mobile App</h5>
     <p class="card-text">Your technical partner providing high-end niche Android app development services with unmatchable expertise.</p>
-    <a href="#" class="btn btn-primary ">Read More</a>
+    <a href="/" class="btn btn-primary ">Read More</a>
   </div>
 </div>
     
