@@ -1,14 +1,15 @@
 import React from 'react'
-
-function Businesscard() {
+function Businesscard(value) {
   return (
     <>
-    <div class="card w-25" >
-    <i class="fa-regular fa-mobile fa-beat-fade"></i>
+    <div class="card w-100 h-auto pt-2" >
+    <img className='mx-auto' src="https://mobrilz.com/assets/images/services/style5/1.png" alt="" srcset="" style={{width:"50px",height:"50px"}}/>
   <div class="card-body">
-    <h5 class="card-title text-center">Mobile App</h5>
-    <p class="card-text">Your technical partner providing high-end niche Android app development services with unmatchable expertise.</p>
-    <a href="/" class="btn btn-primary ">Read More</a>
+    <h5 class="card-title text-center">{value.value.title}</h5>
+    <p class="card-text text-center">{value.value.data}</p>
+    <div className="text-center">
+    <a href="/" class="btn btn-primary text">Read More</a>
+    </div>
   </div>
 </div>
     

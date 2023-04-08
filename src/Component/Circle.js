@@ -1,7 +1,6 @@
 import React from 'react'
 import './circle.css'
 function Circle(value) {
-    console.log(value.value.percent);
     return (
         <><div className="full container">
             <div className="main ">

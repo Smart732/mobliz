@@ -3,7 +3,7 @@ import React from 'react'
 function Card() {
     return (
         <>
-            <div class="card w-25">
+            <div class="card w-100">
                 <div class="card-body text-center">
                     <i class="fa-brands fa-app-store fa-lg"></i>
                     <h5 class="card-title">Ios App Devlopment</h5>

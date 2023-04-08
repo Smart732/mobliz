@@ -5,7 +5,7 @@ function Sliser() {
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div className='d-flex justify-content-between p-5 ' style={{ backgroundColor: '#0096FF' }}>
+                        <div className='d-flex  flex-lg-row flex-sm-column justify-content-between p-5 ' style={{ backgroundColor: '#0096FF' }}>
                             <div>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laborum eligendi atque. Optio, aspernatur. Minus, repellendus velit laboriosam aperiam quisquam itaque quidem ex fugit fuga quasi. Expedita eligendi eveniet dolor?</p>
                                 <button className='btn btn-info'>click</button>
