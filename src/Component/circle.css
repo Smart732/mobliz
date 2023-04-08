@@ -1,0 +1,60 @@
+.main{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    position: relative;
+}
+.outer{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    box-shadow: 6PX 6PX 10PX -1px rgba(0, 0,0, .15),
+    -6PX -6PX 10PX -1px rgba(255, 255,255, .7);
+    padding: 20PX;
+}
+.iner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+ box-shadow: inset 4px 4px 6px -1px rgba(0, 0,0, .2) , 
+inset 4px 4px 6px -1px rgba(255, 255,255, .7), 
+-0.5px  -0.5px 0px rgba(255, 255,255, 1),
+0.5px  0.5px 0px rgba(0, 0,0, 0.15),
+0px 12px -10px  rgba(0, 0, 0, 0.05) 
+}
+#number{
+    font-weight: 600;
+    font-size: 25px;
+    color: #978181;
+}
+ circle{
+    fill: none;
+    stroke: rgb(21, 8, 77);
+    stroke-width: 10px;
+    stroke-dasharray:450;
+    stroke-dashoffset: 25;
+}
+svg{
+    position: absolute;
+   top: 0;
+   left: 0;
+}
+.full{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 20px;
+    line-height: 37px;
+    font-weight: 600;
+    color: #102b3e;
+    margin: 14px 0 0;
+}
+

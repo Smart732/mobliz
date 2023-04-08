@@ -1,0 +1,15 @@
+.sub-title{
+    
+    margin: 0 0 10px;
+    display: block;
+    line-height: 28px;
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: #063b75;
+    text-transform: uppercase;
+}
+.title{
+    font-weight:700;
+    color: #00295d;
+}
