@@ -25,10 +25,10 @@ function App() {
       <Sliser />
       <Heading />
 
-      <footer class="bg-white">
+      <footer class="bg-white ">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-4">
+          <div class="row ">
+            <div class="col-sm-12 col-md-4 ">
               <Card />
             </div>
             <div class="col-sm-12 col-md-4">
@@ -46,17 +46,17 @@ function App() {
       <footer class="bg-white text-white">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-12 col-md-3 ">
               <Circle value={{ percent: "99%", name: "Satisfied Clients" }} />
             </div>
             <div class="col-sm-12 col-md-3">
-              <Circle value={{ percent: "99%", name: "Satisfied Clients" }} />
+              <Circle value={{ percent: "650", name: "Completed Project" }} />
             </div>
             <div class="col-sm-12 col-md-3">
-              <Circle value={{ percent: "99%", name: "Satisfied Clients" }} />
+              <Circle value={{ percent: "84", name: "Works in Hand" }} />
             </div>
             <div class="col-sm-12 col-md-3">
-              <Circle value={{ percent: "99%", name: "Satisfied Clients" }} />
+              <Circle value={{ percent: "7+", name: "Year's Industry Experience" }} />
             </div>
           </div>
         </div>
